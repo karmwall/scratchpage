@@ -1,0 +1,85 @@
+ /* this is CSS (the styling) */
+body{
+    font-family: 'Comic Sans MS', papyrus, serif;
+    color: burlywood;
+    background-color:cadetblue;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+.pbold{
+    font-weight:bolder;
+}
+.rizz{
+    display: block;
+    border: 2px solid rgb(3, 89, 181);
+    padding: 5px; 
+    /* to separate from border */
+    margin: 10px;
+    /* to separate from other things */
+    text-align: center;
+    font-size: 150%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-weight: bold;
+}
+.rizz:hover{
+    font-size: 500%;
+    color: rgb(3, 146, 32);
+    border: 5px, rgb(145, 7, 145) dashed;
+}
+a:visited{
+    color: azure;
+}
+img{
+    border: 3px solid rgb(6, 195, 195);
+    padding: 5px;
+    margin: 2px;
+    
+}
+ul > li:hover{
+    /* ul > so that it hightlights each individual item when going through the unordered list */
+    text-decoration: underline;
+    background-color: darkcyan;
+}
+a:hover{
+    text-decoration: overline;
+}
+a{
+    color: rgb(243, 218, 185);
+}
+.common{
+    position: absolute;
+    padding: 5px;
+    margin: 5px;
+}
+.bottom{
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    background-color: darkcyan;
+    font-size: 50%;
+}
+.top{
+  /* since position was defined as absolute in common we don't need to define again */
+    top: 5px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+
+}
+.content{
+    top: 150px;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+}
+.nav{
+    z-index: 1;
+    position: relative;
+    float: right;
+    
+}
